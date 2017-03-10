@@ -49,9 +49,39 @@
             android:textSize="10sp"/>
 
 
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/dividerVertical" />
 
+        <Button
+            android:id="@+id/btnLocal"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableTop="@drawable/selector_ic_local_video"
+            android:padding="@dimen/lay_4"
+            android:text="@string/local_video"
+            android:textColor="@drawable/selector_color_accent"
+            android:textSize="@dimen/font_10" />
 
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/dividerVertical" />
+
+        <Button
+            android:id="@+id/btnLikes"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableTop="@drawable/selector_ic_account"
+            android:padding="@dimen/lay_4"
+            android:text="@string/likes"
+            android:textColor="@drawable/selector_color_accent"
+            android:textSize="@dimen/font_10" />
     </LinearLayout>
 
-    
 </RelativeLayout>
